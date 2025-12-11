@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: matriculas-backend
+    env: docker
+    plan: free
+    branch: main
+    buildCommand: ""
+    startCommand: ""
+    dockerfilePath: Dockerfile
+    repo: https://github.com/Antoni2487/matriculas-backend
